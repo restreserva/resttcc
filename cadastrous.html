@@ -96,7 +96,7 @@
               </div>
 
               <div class="col-md-6  distancia">
-                <input type="number" class="form-control" placeholder="CPF *opcional" name="cpf">
+                <input type="text" class="form-control" placeholder="CPF *opcional" name="cpf">
               </div>
 
               <div class="col-md-6  distancia">
@@ -105,27 +105,29 @@
               
 
               <div class="col-md-6  distancia">
-                <input required type="number" class="form-control" placeholder="Telefone" name="telefoneusuario" id="telefone" required>
+                <input required type="text" class="form-control" placeholder="Telefone" name="telefoneusuario" id="telefone" required>
               </div>
 
 
               <div class="col-md-6  distancia">
-                <input required type="password" class="form-control" placeholder="Senha" name="senha" id="senha" required>
+                <input required type="password" class="form-control" placeholder="Senha" name="senha1" id="senha1" required>
               </div>
 
               <div class="col-md-6  distancia">
-                <input required type="password" class="form-control" placeholder="Confirmar Senha" name="senhaconf" id="senhacofirmar" required>
+                <input  required type="password" class="form-control" placeholder="Confirmar Senha" name="senha2" id="senha2" required>
               </div>
               
               <div class="alin-btn">
 
                 <div class="" style="text-align: center;  margin-bottom: 10px;">
-                    <button id="cadastrarcpf" type="submit" class="btn btn-cadastrar btn-block"><b>Cadastrar</b></button>
+                    <button onclick="validarSenha('senha1','senha2')" id="cadastrarcpf" type="submit" class="btn btn-cadastrar btn-block"><b>Cadastrar</b></button>
 
                 </div>
 
                  <div class=" " style="margin-bottom: 10px;">
-                     <button id="logar" type="button" class="btn btn-logar btn-block"><b>Já sou cadastrado</b></button>
+                     <a href="logim.html">
+                      <button id="logar" type="button" class="btn btn-logar btn-block"><b>Já sou cadastrado</b></button>
+                    </a> 
                 </div>
                   
               </div>
@@ -133,6 +135,7 @@
 
           
           </form>
+          <script src="js/js.js"></script>
           <script type="text/javascript">
         $("#cep").focusout(function(){
             //Início do Comando AJAX

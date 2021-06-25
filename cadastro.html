@@ -96,7 +96,7 @@
               </div>
 
               <div class="col-md-6  distancia">
-                <input type="number" class="form-control" placeholder="CNPJ" name="cnpj" required>
+                <input type="text" class="form-control" placeholder="CNPJ" name="cnpj" required>
               </div>
 
               <div class="col-md-6  distancia">
@@ -104,7 +104,7 @@
               </div>
               
               <div class="col-md-4  distancia">
-                <input required type="number" class="form-control" placeholder="CEP" name="cep" id="cep" for="cep" required>
+                <input required type="text" class="form-control" placeholder="CEP" name="cep" id="cep" for="cep" required>
               </div>
 
               <div required class="col-md-2  distancia">
@@ -141,7 +141,7 @@
               </div>
 
               <div class="col-md-6  distancia">
-                <input required type="number" class="form-control" placeholder="Telefone" name="telefonerestaurante" id="telefone" required>
+                <input required type="text" class="form-control" placeholder="Telefone" name="telefonerestaurante" id="telefone" required>
               </div>
 
                <div class="col-md-2  distancia">
@@ -159,11 +159,11 @@
               
 
               <div class="col-md-6  distancia">
-                <input required type="password" class="form-control" placeholder="Senha" name="senha" id="senha" required>
+                <input required type="password" class="form-control" placeholder="Senha" name="senha1" id="senha1" required>
               </div>
 
               <div class="col-md-6  distancia">
-                <input required type="password" class="form-control" placeholder="Confirmar Senha" name="senhaconf" id="senhaconf" required>
+                <input  required type="password" class="form-control" placeholder="Confirmar Senha" name="senha2" id="senha2" required>
               </div>
               
               <div class="alin-btn">
@@ -174,7 +174,9 @@
                 </div>
 
                  <div class=" " style="margin-bottom: 10px;">
-                     <button id="logar" type="button" class="btn btn-logar btn-block"><b>Já sou cadastrado</b></button>
+                    <a href="logim.html">
+                      <button id="logar" type="button" class="btn btn-logar btn-block"><b>Já sou cadastrado</b></button>
+                    </a> 
                 </div>
                   
               </div>
@@ -182,6 +184,7 @@
 
           
           </form>
+          <script src="js/js.js"></script>
           <script type="text/javascript">
         $("#cep").focusout(function(){
             //Início do Comando AJAX
