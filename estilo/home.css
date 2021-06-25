@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,#home{
+    height: 100%;
+    overflow-x:hidden;
+}
+body{
+    font-family: helvetica,arial,sans-serif;
+}
+
+/**
+Barra de Navegação
+*****************************/
+
+nav.navbar-transparente{
+    padding: 15px 0;
+    background:white;
+    background: rgba(245,112,17,0.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1f1305;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(206, 194, 194, 0.1);
+}
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/*Conteudo Restaurantes*/
+.page-restaurantes{
+    padding: 6rem 0;
+}
+.page-section {
+    padding: 6rem 0;
+    background: white;
+}
+.page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: helvetica,arial,sans-serif;
+    margin-bottom: 4rem;
+}
+.fa-custom{
+    color: #e26e39;
+}
+/*
+animação
+*************************/
+li {
+    margin-bottom: 10px;
+}
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 10px;
+    background: rgb(245, 112,17);
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.separador{
+    border: 0;
+	border-bottom: 1px solid #3b3c3d;
+}
+.menu{
+    display: grid;
+    margin-left: 150px;
+}
+
+/*Menu card*/
+/*#special{
+    min-height: 100vh;
+}*/
+.img-1{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.img-reserva{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+.caixaRestaurante{
+    height: 200px;
+    border: 1px solid rgb(61, 58, 58);
+}
+.pRestaurante{
+    float: right;
+    margin-right: 45px;
+}
+.pHora{
+    float: right;
+    margin-right: 45px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   margin-top: 10px;
+}
+.text-rodape{
+    font-size: 15px;
+}

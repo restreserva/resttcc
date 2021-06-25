@@ -1,0 +1,151 @@
+html,body,#home{
+    height: 100%;
+    overflow-x:hidden;
+}
+body{
+    background-color: #F7F7F7;
+    font-family: helvetica,arial,sans-serif;
+}
+.area-logo{
+    padding-top: 20px;
+    text-align: center;
+}
+.texto-cadastro{
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-custon{
+    background-color: rgb(245, 112,17);
+    border-color: rgb(245, 112,17);
+}
+
+.btn{
+    white-space: normal !important;
+}
+
+/**
+Barra de Navegação
+*****************************/
+
+nav.navbar-transparente{
+    padding: 15px 0;
+    background:white;
+    background: rgba(245,112,17,0.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1f1305;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(206, 194, 194, 0.1);
+}
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+/**
+Barra de Navegação
+*****************************/
+
+
+/**
+CAMPOS DE PREENCHIMENTOS
+*****************************/
+
+.tam-logo{
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+
+.h1-principal{
+    text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.alinha-form{
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+
+}
+
+/**
+CAMPOS DE PREENCHIMENTOS
+*****************************/
+.alin-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/**
+BOTOES CADASTRAR
+*****************************/
+
+.btn-cadastrar{
+    width: 500px;
+    background-color: #F57316;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.btn-cadastrar:hover{
+    background-color: #FFA666;
+    border-radius:0px 20px 0px 20px;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+    transition: border-radius 0.3s;
+}
+
+/**
+BOTOES CADASTRAR
+*****************************/
+
+/**
+BOTOES LOGAR
+*****************************/
+
+.btn-logar{
+    width: 500px;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.btn-logar:hover{
+    background-color: #4F4F4F;
+    border-radius:0px 20px 0px 20px;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+    transition: border-radius 0.3s;
+}
+
+.distancia {
+    margin-bottom: 26px;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+
